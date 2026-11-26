@@ -1,0 +1,196 @@
+# ============================================================
+# Ayeria 主题自定义配置（覆盖 themes/ayeria/_config.yml）
+# ============================================================
+
+# 侧边栏菜单
+menu:
+  主页: /
+  全部文章: /archives
+  文章分类: /categories
+  全部标签: /tags
+  友情链接: /friends
+  关于本站: /about
+
+# 站点次标题和打字动效
+subtitle:
+  enable: true
+  text: Hello World
+  text2:
+  text3:
+  startDelay: 1000
+  typeSpeed: 200
+  loop: true
+  backSpeed: 100
+  showCursor: true
+
+# 网站图标和侧边栏logo
+favicon: /favicon.svg
+logo: /favicon.svg
+
+# 封面配置
+cover:
+  enable: true
+  path: /images/cover.jpg
+  logo: false
+
+# 页面顶部进度条
+progressBar: true
+
+# 告示板模块
+broadcast:
+  enable: false
+  type: 2
+  text:
+
+# 文章配置
+excerpt_link: 显示更多...
+excerpt_all: false
+copy_btn: true
+share_enable: true
+share_china: true
+share_text: 分享
+
+# 分页文字
+nav_text:
+  page_prev: 上一页
+  page_next: 下一页
+  post_prev: 上一篇
+  post_next: 下一篇
+
+# 文章页目录
+toc: true
+
+# 图片点击放大
+image_viewer: true
+
+# 字数统计
+word_count:
+  enable: true
+  only_article_visit: true
+
+# 打赏（0-关闭 | 1-按文章front-matter | 2-所有文章）
+reward_type: 0
+reward_wording: "如果这篇文章对你有帮助，可以请我喝杯茶"
+reward:
+  button_text: ""
+  channels: []
+
+# 版权声明（0-关闭 | 1-按文章front-matter | 2-所有文章）
+copyright_type: 0
+
+# 搜索（需安装 hexo-generator-searchdb）
+search: true
+
+# RSS（需安装 hexo-generator-feed）
+rss: /atom.xml
+# 黑夜模式
+darkmode: true
+
+# 动态背景（0-关闭，1-动态线条）
+canvas_bg: 0
+
+# 鼠标点击效果（0-关闭，1-爱心，2-爆炸烟花，3-粒子烟花）
+click_effect: 0
+
+# GitHub Ribbons
+github:
+  enable: false
+  url: https://github.com/KaleidScoper/hexo-theme-ayeria
+
+# 网易云音乐
+music:
+  enable: false
+  type: 1
+  id: 22707008
+  autoPlay: true
+
+# 访问量统计
+busuanzi:
+  enable: false
+
+# 统计分析
+cnzz:
+  enable: false
+  url:
+google_analytics: ""
+baidu_analytics: ""
+
+# 数学公式
+mathjax: false
+katex:
+  enable: false
+  allpost: true
+  copy_tex: false
+
+# Mermaid 流程图
+mermaid:
+  enable: false
+  cdn: https://cdn.staticfile.org/mermaid/8.14.0/mermaid.min.js
+  theme: forest
+
+# 网站成立年份
+since: 2025
+
+# ICP / 公安备案
+icp:
+  enable: false
+  url: "https://beian.miit.gov.cn/"
+  text: ""
+gongan:
+  enable: false
+  img: /images/beian.png
+  url: ""
+  text: ""
+
+# 友情链接
+friends_link:
+  Ayeria 主题:
+    url: https://github.com/KaleidScoper/hexo-theme-ayeria
+    img: /images/ayeria.png
+  Hexo 官网:
+    url: https://hexo.io
+    img: /images/hexo.png
+
+# 评论系统（四选一）
+leancloud:
+  enable: false
+  app_id:
+  app_key:
+valine:
+  enable: false
+  avatar: monsterid
+  placeholder: 给我的文章加点评论吧~
+gitalk:
+  enable: false
+  clientID:
+  clientSecret:
+  repo:
+  owner:
+  admin:
+twikoo:
+  enable: false
+  envId:
+giscus:
+  enable: false
+  repo:
+  repo_id:
+  category: Announcements
+  category_id:
+  mapping: pathname
+  reactions_enabled: 1
+  emit_metadata: 0
+  input_position: top
+  lang: zh-CN
+
+# 首页广告
+ads:
+  ad_1:
+    title:
+    url:
+    img:
+    width:
+
+# 网站加密
+lock:
+  enable: false
+  password: 123456
